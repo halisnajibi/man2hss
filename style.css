@@ -1,0 +1,96 @@
+.aktif:active {
+  border-left: 3px solid white;
+}
+
+nav p {
+  font-size: 36px;
+  padding-top: 10px;
+  color: #1cc88a;
+}
+
+footer {
+  margin-top: 200px;
+}
+
+.form {
+  margin-left: 850px;
+}
+
+.cetak {
+  position: relative;
+  top: -38px;
+  left: 150px;
+}
+
+.none {
+  display: none;
+}
+
+.cetak {
+  position: relative;
+  top: -38px;
+  left: 150px;
+}
+
+.none {
+  display: none;
+}
+
+/* cetak */
+.icon img {
+  position: relative;
+  top: 100px;
+  left: -400px;
+  width: 100px;
+}
+
+.print {
+  position: relative;
+  top: -10px;
+  left: 10px;
+  width: 60px;
+}
+
+h6 {
+  border-bottom: 5px solid black;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+.ttd {
+  margin-left: 400px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.kepala {
+  margin-bottom: 10px;
+}
+
+td{
+  padding: 20px;
+  font-size: 20px;
+}
+
+th{
+  padding: 20px;
+  font-size: 20px;
+}
+
+footer{
+ position: relative;
+ top: -200px;
+}
+
+@media print {
+  .print {
+    display: none;
+  }
+
+.icon img {
+  position: relative;
+  top: 30px;
+  left: -150px;
+  width: 50px;
+}
+}

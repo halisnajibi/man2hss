@@ -1,0 +1,198 @@
+:root {
+  --maincolor: #252734;
+  --secondarycolor: #333646;
+  --coloraksen: #ff9100;
+}
+
+body {
+  background-color: var(--maincolor);
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+/* hero */
+.nav-link.active {
+  color: var(--coloraksen) !important;
+}
+.hs {
+  font-family: 'Pacifico', cursive !important;
+  font-size: 22px;
+}
+
+.nav-item a:hover {
+  border-bottom: 4px solid white !important;
+  color: var(--secondarycolor) !important;
+}
+
+.container.intro {
+  margin-top: 100px;
+
+  color: white;
+}
+
+.container.intro span {
+  color: var(--coloraksen);
+}
+
+.container.intro img {
+  width: 95%;
+}
+
+p.satu {
+  font-family: 'Poppins', sans-serif;
+  font-size: 52px;
+  font-weight: semi-bold;
+}
+p.dua {
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.container.intro h1 {
+  font-family: 'Pacifico', cursive !important;
+  font-size: 42px;
+  letter-spacing: 3px;
+}
+
+.btn-1 a {
+  background-color: var(--coloraksen);
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 200px;
+}
+.btn-1 a:hover {
+  color: var(--secondarycolor);
+}
+
+/* akhir hero */
+
+/* about */
+.container-fluid {
+  margin-top: 200px;
+  padding-bottom: 50px;
+  background-color: var(--secondarycolor);
+}
+
+.container-fluid h1 {
+  color: white;
+  padding-top: 30px;
+}
+
+hr {
+  color: var(--coloraksen) !important;
+  font-size: 28px;
+}
+
+.color-aksen {
+  color: var(--coloraksen);
+  font-size: 20px;
+}
+
+.saya {
+  color: var(--coloraksen) !important;
+  font-size: 20px;
+}
+
+p {
+  color: white;
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.link a:hover {
+  color: var(--coloraksen);
+}
+/* akhir about */
+
+/* project */
+#project .container {
+  margin-top: 200px;
+}
+
+.container h1 {
+  color: white;
+}
+
+.card-text {
+  display: inline;
+  padding: 3px;
+  font-size: 12px;
+}
+
+/* akhir project */
+
+/* skill */
+#skill .container {
+  margin-top: 200px;
+}
+
+.container h5 {
+  font-size: 18px;
+  color: var(--coloraksen) !important;
+}
+
+.foto-card {
+  width: 30%;
+  position: relative;
+  top: -60px;
+  left: 85px;
+}
+
+h6 {
+  font-size: 18px;
+  color: var(--secondarycolor) s !important;
+  position: relative;
+  top: 70px;
+}
+
+/* akhir skill */
+
+/* contact */
+#contact .container {
+  margin-top: 200px;
+}
+
+.img-satu {
+  width: 30px;
+  position: relative;
+  top: 25px;
+}
+.no {
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.img-dua {
+  width: 30px;
+  position: relative;
+  top: 25px;
+}
+.ig {
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.img-tiga {
+  width: 30px;
+  position: relative;
+  top: 25px;
+}
+.email {
+  font-size: 18px;
+  margin-left: 50px;
+}
+/* akhir contact */
+
+/* copyright */
+.halis {
+  padding-top: 30px;
+  height: 20px;
+}
