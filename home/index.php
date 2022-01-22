@@ -1,5 +1,6 @@
 <?php 
-
+include('../admin/functions.php');
+$pengunguman=admin("SELECT * FROM pengunguman");
 ?>
 
 <!doctype html>
@@ -92,67 +93,20 @@
 </nav>
 
 <div class="container">
-  <div class="row mb-4">
-    <div class="col-3 shadow-sm p-3 mb-5 bg-body rounded">
-      <h4 class="wadah p-1">Pengumuman</h4>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="">Jadwal UAS</a> </li>
-          <li class="list-group-item"><a href="">20-12-201 Pakai Baju Batik</a> </li>
-          <li class="list-group-item"><a href="">Lorem ipsum </a> </li>
-            <li class="list-group-item"><a href="">Lorem ipsum Lorem i</a> </li>
-        </ul>
-    </div>
-     <div class="col ">
-     
-    </div>
-     <div class="col shadow-sm p-3 mb-5 bg-body rounded">
-      <h4 class="wadah p-1">Profiel Sekolah</h4>
-       <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="">Sejarah</a> </li>
-          <li class="list-group-item"><a href="">Visi Dan Misi</a> </li>
-          <li class="list-group-item"><a href="">Jurusan</a> </li>
-            <li class="list-group-item"><a href="">Prestasi Sekolah</a> </li>
-        </ul>
-    </div>
+<!-- berita -->
+<div class="row">
+  <div class="col-10">
+    <h2>berita utama</h2>
+  <img src="img/national-cancer-institute-N_aihp118p8-unsplash (1).jpg" alt="" width="50%" class="float-start pe-4"> 
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eos. Eum facilis dolorum perferendis ut error expedita quos exercitationem maxime ratione mollitia et nobis sint eius libero ullam aliquid, quibusdam sapiente unde! Nihil deleniti quo sit debitis molestiae vel dicta accusamus? Dolores doloribus aperiam facere, enim minima quaerat! Architecto non eum laboriosam, quaerat, vero animi odit deserunt sit ratione maiores aspernatur beatae nobis molestias totam obcaecati, sint possimus temporibus. Dolore libero aperiam modi quasi, dolor dolores blanditiis debitis. At officia blanditiis, eius dolores ab, pariatur sed sunt odit deleniti, voluptatibus libero! Odit soluta officiis, doloribus quibusdam, perspiciatis commodi distinctio possimus nihil delectus autem laborum reiciendis? Nihil eius saepe officia earum nostrum tempore possimus consequuntur ea doloribus sapiente, architecto aliquid tempora ex molestias incidunt amet dolor debitis. Facere, molestias ducimus dolore quia illo rem eligendi beatae! Culpa qui, velit, veniam magni laborum error sunt ut debitis dolores voluptas perferendis dignissimos nihil eius harum incidunt non praesentium voluptates aliquid doloremque quis facere dolore quia tempora. Itaque animi delectus doloremque totam maiores, quam molestiae labore impedit suscipit autem, quidem dolorem assumenda eveniet eos quos atque? Dignissimos dolorum excepturi, blanditiis saepe impedit, libero harum inventore et perferendis eum ipsa aperiam optio quam neque nemo.!</p>
   </div>
-
-   <div class="row mb-4"">
-    <div class="col-3">
-      <h4 class="wadah p-1">Sarana Dan Prasana</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eum facilis id.</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eum exercitationem provident quam omnis cupiditate, illo hic culpa.</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, non corrupti? Facere distinctio provident natus quia inventore ducimus at, tempore suscipit, magnam, aut ipsam repudiandae.</p>
-    </div>
-     <div class="col">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere expedita deleniti labore suscipit adipisci debitis asperiores. Corporis saepe, reprehenderit quia nostrum, nam a expedita itaque aut voluptates possimus sunt aperiam!</p>
-    </div>
-     <div class="col ms-5 shadow-sm p-3 mb-5 bg-body rounded">
-     <h4 class="wadah p-1">Berita Terbaru</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eum facilis id.</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eum exercitationem provident quam omnis cupiditate, illo hic culpa.</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, non corrupti? Facere distinctio provident natus quia inventore ducimus at, tempore suscipit, magnam, aut ipsam repudiandae.</p>
-    </div>
-  </div>
-
-   <div class="row mb-4"">
-    <div class="col-3">
-      <h4 class="wadah p-1">Kepala Sekolah</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eum facilis id.</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eum exercitationem provident quam omnis cupiditate, illo hic culpa.</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, non corrupti? Facere distinctio provident natus quia inventore ducimus at, tempore suscipit, magnam, aut ipsam repudiandae.</p>
-    </div>
-     <div class="col">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere expedita deleniti labore suscipit adipisci debitis asperiores. Corporis saepe, reprehenderit quia nostrum, nam a expedita itaque aut voluptates possimus sunt aperiam!</p>
-    </div>
-     <div class="col">
-     <h4 class="wadah p-1">Kesiswaan</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eum facilis id.</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eum exercitationem provident quam omnis cupiditate, illo hic culpa.</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, non corrupti? Facere distinctio provident natus quia inventore ducimus at, tempore suscipit, magnam, aut ipsam repudiandae.</p>
-    </div>
+  <div class="col-10">
+  <img src="img/national-cancer-institute-N_aihp118p8-unsplash (1).jpg" alt="" width="50%" class="float-start pe-4"> 
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eos. Eum facilis dolorum perferendis ut error expedita quos exercitationem maxime ratione mollitia et nobis sint eius libero ullam aliquid, quibusdam sapiente unde! Nihil deleniti quo sit debitis molestiae vel dicta accusamus? Dolores doloribus aperiam facere, enim minima quaerat! Architecto non eum laboriosam, quaerat, vero animi odit deserunt sit ratione maiores aspernatur beatae nobis molestias totam obcaecati, sint possimus temporibus. Dolore libero aperiam modi quasi, dolor dolores blanditiis debitis. At officia blanditiis, eius dolores ab, pariatur sed sunt odit deleniti, voluptatibus libero! Odit soluta officiis, doloribus quibusdam, perspiciatis commodi distinctio possimus nihil delectus autem laborum reiciendis? Nihil eius saepe officia earum nostrum tempore possimus consequuntur ea doloribus sapiente, architecto aliquid tempora ex molestias incidunt amet dolor debitis. Facere, molestias ducimus dolore quia illo rem eligendi beatae! Culpa qui, velit, veniam magni laborum error sunt ut debitis dolores voluptas perferendis dignissimos nihil eius harum incidunt non praesentium voluptates aliquid doloremque quis facere dolore quia tempora. Itaque animi delectus doloremque totam maiores, quam molestiae labore impedit suscipit autem, quidem dolorem assumenda eveniet eos quos atque? Dignissimos dolorum excepturi, blanditiis saepe impedit, libero harum inventore et perferendis eum ipsa aperiam optio quam neque nemo.!</p>
   </div>
 </div>
-
+<!-- akhir berita -->
+</div>
 
 
 
